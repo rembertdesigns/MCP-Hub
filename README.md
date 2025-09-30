@@ -77,7 +77,7 @@ MCP clients act as the AI's "control panel," facilitating communication between 
 
 Popular MCP clients include:
 
-**[Claude Desktop](https://claude.ai/download):** The official desktop client from Anthropic, providing native MCP support and easy access to multiple MCP servers such as Blender MCP for creating 3D models using natural language. Beginner-friendly with no coding required.
+**[Claude Desktop](https://claude.ai/download):** The official desktop client from Anthropic, providing native MCP support and easy access to multiple MCP servers such as [Blender MCP](https://github.com/PotatoSpudowski/mcp-blender-server) for creating 3D models using natural language. Beginner-friendly with no coding required.
 
 **[Cherry Studio](https://cherry-ai.com/):** An emerging client featuring visual configuration tools that simplify MCP server setup with point-and-click ease. Currently under active development with regular community updates.
 
