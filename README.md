@@ -11,7 +11,6 @@ Welcome to the MCP Hub, a curated collection designed to help everyone get start
 * [Getting Started with MCP](#getting-started-with-mcp)
 * [Popular MCP Clients](#popular-mcp-clients)
 * [Recommended MCP Client Highlights](#recommended-mcp-client-highlights)
-* [Other MCP Client Resources](#other-mcp-client-resources)
 * [MCP Servers Overview](#mcp-servers-overview)
 * [Browser Automation & Web Interaction MCP Servers](#browser-automation--web-interaction-mcp-servers)
 * [Development & Code Execution MCP Servers](#development--code-execution-mcp-servers)
@@ -69,3 +68,62 @@ See the [official MCP documentation](https://modelcontextprotocol.io/) for detai
 To begin, try official MCP clients connecting to popular servers like Slack MCP or GitHub MCP to see AI tooling in action. For developers, building custom MCP servers involves implementing the MCP spec and exposing desired capabilities.
 
 See the official MCP introduction for detailed specs, example implementations, and SDKs.
+
+---
+
+## Popular MCP Clients
+
+MCP clients act as the AI's "control panel," facilitating communication between the AI model and external MCP servers that provide access to tools, data, and functionalities. These clients provide various user interfaces—from desktop apps to code editors—to interact seamlessly with MCP servers.
+
+Popular MCP clients include:
+
+**[Claude Desktop](https://claude.ai/download):** The official desktop client from Anthropic, providing native MCP support and easy access to multiple MCP servers such as Blender MCP for creating 3D models using natural language. Beginner-friendly with no coding required.
+
+**[Cherry Studio](https://cherry-ai.com/):** An emerging client featuring visual configuration tools that simplify MCP server setup with point-and-click ease. Currently under active development with regular community updates.
+
+**[5ire](https://5ire.app/):** A modern AI assistant and MCP client supporting many mainstream providers. It enables file system access, database interaction, remote data fetching, local knowledge bases, usage analytics, prompt libraries, bookmarks, and fast search. Cross-platform across Windows, macOS, and Linux, suited for both developers and non-developers.
+
+**[Cursor](https://www.cursor.com/):** A versatile code editor enhanced with MCP capabilities for writing code, sending Slack messages, generating images, and more. Highly recommended for programmers and integrates well with [GitHub MCP](https://github.com/modelcontextprotocol/servers/tree/main/src/github).
+
+**[DeepChat](https://deepchat.ai/):** An intelligent assistant bridging powerful AI with personal workflows. Supports multi-model cloud services and local model deployment, multi-channel chat, full Markdown rendering, and MCP integration. Available on Windows, macOS, and Linux.
+
+**[ChatWise](https://chatwise.app/):** Privacy-focused AI assistant supporting any LLM (GPT-4, Claude, Gemini, etc.) with multimodal chat (audio, PDF, images, text), web search capabilities, MCP tool integrations, and real-time rendering of HTML/React/charts. All data is stored locally for privacy-conscious users.
+
+**[eechat](https://eechat.ai/):** A simple, locally deployable LLM tool emphasizing privacy, security, and performance. Features one-click integration, visual configuration, automatic MCP config reading, and compatibility with Claude and Cursor setups. Includes built-in Node and Python environments. Ideal for beginners.
+
+## Recommended MCP Client Highlights
+
+**User-Friendly Interfaces:** Clients like [Claude Desktop](https://claude.ai/download) and [Cherry Studio](https://cherry-ai.com/) offer intuitive UIs requiring little to no coding, enabling rapid adoption.
+
+**Cross-Platform Support:** Clients such as [5ire](https://5ire.app/) and [DeepChat](https://deepchat.ai/) run on all major OS platforms, making them accessible to a broad user base.
+
+**Privacy & Local Deployment:** Tools like [ChatWise](https://chatwise.app/) and [eechat](https://eechat.ai/) prioritize local data storage and privacy compliance, catering to users with stringent data needs.
+
+**Developer Integration:** [Cursor](https://www.cursor.com/) combines code editing with MCP connectivity to streamline developer workflows, including notifications and AI-assisted code generation.
+
+## Other MCP Client Resources
+
+**[Awesome MCP Clients](https://github.com/punkpeye/awesome-mcp-clients):** A community-curated repository featuring many additional MCP client implementations, plugins, and tools.
+
+These complementary resources provide expansive options for different use cases and technical preferences in the MCP ecosystem.
+
+## MCP Servers Overview
+
+MCP servers are the "backend engines" that expose real-world tools, data systems, and APIs to AI clients through the standardized MCP protocol. They enable secure, contextual, and extensible access to functions like messaging platforms, databases, cloud services, code repositories, and browser automation.
+
+Major MCP server categories include:
+
+* Browser automation and web interaction for AI-driven website navigation and form filling.
+* Development and code execution servers providing access to interpreters, sandboxes, and IDE integrations.
+* Command line and shell servers enabling AI-controlled terminal commands.
+* Version control servers managing GitHub, GitLab, and similar services.
+* Database integration servers supporting PostgreSQL, MySQL, MongoDB, Redis, and others.
+* Cloud platform servers interfacing with AWS, Azure, Kubernetes, Cloudflare, and more.
+* Search servers connecting AI with web and enterprise search engines.
+* Communication and collaboration servers integrating Slack, Gmail, Calendar, Teams, Discord.
+* Finance and cryptocurrency servers.
+* File system and storage access.
+* Data analysis and visualization servers.
+* Productivity tools and more.
+
+Understanding the server landscape is critical to designing AI applications that leverage MCP to its fullest potential.
